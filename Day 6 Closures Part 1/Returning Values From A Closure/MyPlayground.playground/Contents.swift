@@ -12,7 +12,7 @@ let drivingWithReturn = { (place: String) -> String in
     return "I'm going to \(place) in my car"
 }
 
-let message = drivingWithReturn("London")
+let message = drivingWithReturn("Norfolk")
 print(message)
 
 let measureSize = { (inches: Int) -> String in
